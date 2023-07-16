@@ -1,0 +1,56 @@
+.header{
+    background-color:aquamarine;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.logo{
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.logo span{
+    color: #000;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar_Ribon{
+    display: flex;
+}
+.navbar_Ribon li{
+    list-style: none;
+}
+.navbar_Ribon a{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight:500;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.navbar_Regis{
+    display: flex;
+    align-items: center;
+}
+.navbar_Regis li{
+    list-style: none;
+}
+.navbar_Regis a{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight:500;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.Heading h1{
+    display: flex;
+    justify-content: center;
+}
+.Heading p{
+    display: flex;
+    justify-content: center;
+}

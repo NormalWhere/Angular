@@ -1,0 +1,40 @@
+<header class="header">
+  <div class="container">
+    <a href="#" class="logo">
+      <span>Logo</span>
+    </a>
+    <ul class="navbar_Ribon">
+      <li><a href="#">Send Money</a></li>
+      <li><a href="#">Converter</a></li>
+      <li><a href="#">Currency API</a></li>
+      <li><a href="#">Tools</a></li>
+      <li><a href="#">Resources</a></li>
+    </ul>
+  
+    <ul class="navbar_Regis">
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Register</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="Heading">
+  <h1>Xe Currency Converter</h1>
+  <p>Check live foreign currency exchange rates</p>
+</div>
+
+<div class="main">
+  <div class="container">
+    <label>Amount</label>
+    <div class="text_amount">
+      <input type="text">
+    </div>
+
+    <label>Form</label>
+    <ng-select [items]="acceptApi | keyvalue"
+    bindLabel="value"
+    bindValue="key"
+    [searchFn]="customSearchFn">
+    </ng-select>
+  </div>
+</div>
